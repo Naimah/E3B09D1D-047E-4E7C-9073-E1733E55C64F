@@ -1,0 +1,183 @@
+2012-09-19 17:01:42.951 WhatsApp[1148:3903] LL_N  void ReachabilityCallback(SCNetworkReachabilityRef, SCNetworkReachabilityFlags, void *) [Line 141] Reachability flags: [WR t------]
+2012-09-19 17:01:42.955 WhatsApp[1148:3903] LL_N  -[XMPPConnection reachability:networkStatusChanged:] [Line 1994] Network reachability changed from Unknown to GPRS.
+2012-09-19 17:01:43.025 WhatsApp[1148:707] LL_A* -[WhatsAppAppDelegate application:didFinishLaunchingWithOptions:] [Line 900] application:<UIApplication: 0x491310> didFinishLaunchingWithOptions:{
+LL_A     UIApplicationLaunchOptionsRemoteNotificationKey =     {
+LL_A         aps =         {
+LL_A             alert =             {
+LL_A                 body = "zainizamaziz78: jom takraw";
+LL_A             };
+LL_A             badge = 1;
+LL_A             i = "50.22.231.44";
+LL_A             sound = "Tri-tone.caf";
+LL_A             u = 60173289772;
+LL_A         };
+LL_A     };
+LL_A }
+2012-09-19 17:01:43.028 WhatsApp[1148:707] LL_N* -[WhatsAppAppDelegate enableXmppConnectionIfNeeded] [Line 77] Enable connection.
+2012-09-19 17:01:43.030 WhatsApp[1148:707] LL_N* -[WhatsAppAppDelegate processPushInfo:] [Line 64] IP hint: 50.22.231.44
+2012-09-19 17:01:43.033 WhatsApp[1148:707] LL_A* -[WhatsAppAppDelegate application:didFinishLaunchingWithOptions:] [Line 937] Device: iPhone 4
+2012-09-19 17:01:43.036 WhatsApp[1148:707] LL_A* -[WhatsAppAppDelegate application:didFinishLaunchingWithOptions:] [Line 938] System: iPhone OS 5.1.1
+2012-09-19 17:01:43.038 WhatsApp[1148:707] LL_A* -[WhatsAppAppDelegate application:didFinishLaunchingWithOptions:] [Line 939] WhatsApp version: 2.8.4
+2012-09-19 17:01:43.047 WhatsApp[1148:707] LL_A* -[WhatsAppAppDelegate application:didFinishLaunchingWithOptions:] [Line 942] Carrier name: Maxis
+2012-09-19 17:01:43.055 WhatsApp[1148:707] LL_A* -[WhatsAppAppDelegate application:didFinishLaunchingWithOptions:] [Line 943] Mobile country code: 502
+2012-09-19 17:01:43.063 WhatsApp[1148:707] LL_A* -[WhatsAppAppDelegate application:didFinishLaunchingWithOptions:] [Line 944] Mobile network code: 012
+2012-09-19 17:01:43.065 WhatsApp[1148:707] LL_A* -[WhatsAppAppDelegate application:didFinishLaunchingWithOptions:] [Line 947] Locale: en
+2012-09-19 17:01:43.067 WhatsApp[1148:707] LL_A* -[WhatsAppAppDelegate application:didFinishLaunchingWithOptions:] [Line 948] Language: en
+2012-09-19 17:01:43.070 WhatsApp[1148:707] LL_A* -[WhatsAppAppDelegate application:didFinishLaunchingWithOptions:] [Line 949] Interfaces:
+LL_A ap0: flags=8802 < broadcast simplex multicast > | Link addr=36:8F:C6:61:40:E3
+LL_A en0: flags=8863 < up broadcast running simplex multicast > | Link addr=14:8F:C6:61:40:E3
+LL_A en1: flags=8822 < broadcast simplex multicast > | Link addr=16:8F:C6:61:40:E4
+LL_A lo0: flags=8049 < up loopback running multicast > | Link addr=none | IPv6 ip=0.0.0.0/netmask=0.0.0.0 | IPv4 ip=127.0.0.1/netmask=255.0.0.0 | IPv6 ip=0.0.0.0/netmask=0.0.0.0
+LL_A pdp_ip0: flags=8011 < up ptp multicast > | Link addr=none | IPv4 ip=10.1.188.23/netmask=255.255.255.255
+LL_A pdp_ip1: flags=8011 < up ptp multicast > | Link addr=none
+LL_A pdp_ip2: flags=8011 < up ptp multicast > | Link addr=none
+LL_A pdp_ip3: flags=8011 < up ptp multicast > | Link addr=none
+2012-09-19 17:01:43.343 WhatsApp[1148:707] LL_A* -[WhatsAppAppDelegate application:didFinishLaunchingWithOptions:] [Line 956] Phone number: ‪+60 17-337 0769‬
+2012-09-19 17:01:43.345 WhatsApp[1148:707] LL_A* -[WhatsAppAppDelegate application:didFinishLaunchingWithOptions:] [Line 962] JID: 60173370769@s.whatsapp.net
+2012-09-19 17:01:43.361 WhatsApp[1148:707] LL_A* -[WhatsAppAppDelegate application:didFinishLaunchingWithOptions:] [Line 972] ChatStorage.sqlite size: 180 KB
+2012-09-19 17:01:43.371 WhatsApp[1148:707] LL_A* -[WhatsAppAppDelegate application:didFinishLaunchingWithOptions:] [Line 991] Contacts.sqlite size: 180 KB
+2012-09-19 17:01:43.375 WhatsApp[1148:707] LL_A* -[WhatsAppAppDelegate application:didFinishLaunchingWithOptions:] [Line 998] Disk space available: 3.3 GB
+2012-09-19 17:01:43.408 WhatsApp[1148:707] LL_A* -[WAChatStorage managedObjectModel] [Line 131] coredata/mom/create
+2012-09-19 17:01:43.455 WhatsApp[1148:707] LL_A* -[ChatManager initializeChat] [Line 1255] XMPP user: 60173370769
+2012-09-19 17:01:43.603 WhatsApp[1148:707] LL_A* -[WhatsAppAppDelegate applicationDidBecomeActive:] [Line 1073] Application did become active.
+2012-09-19 17:01:43.608 WhatsApp[1148:707] LL_A* -[WhatsAppAppDelegate applicationDidBecomeActive:] [Line 1077] Cancelling logout if needed
+2012-09-19 17:01:43.612 WhatsApp[1148:707] LL_N* -[WhatsAppAppDelegate enableXmppConnectionIfNeeded] [Line 77] Enable connection.
+2012-09-19 17:01:43.840 WhatsApp[1148:3903] LL_N  -[XMPPConnection checkConnection] [Line 1876] Connecting in foreground (launch).
+2012-09-19 17:01:43.854 WhatsApp[1148:3903] LL_N  -[AsyncSocket connect] [Line 993] Using IP hint: 50.22.231.44
+2012-09-19 17:01:43.857 WhatsApp[1148:3903] LL_N  -[AsyncSocket tryConnect] [Line 1058] Connecting to 50.22.231.44 on port 5222
+2012-09-19 17:01:43.882 WhatsApp[1148:707] LL_A* -[WAChatStorage persistentStoreCoordinator] [Line 144] coredata/psc/create/start
+2012-09-19 17:01:43.915 WhatsApp[1148:707] LL_A* -[WAChatStorage persistentStoreCoordinator] [Line 191] coredata/psc/create/finish time=[0.030]
+2012-09-19 17:01:43.917 WhatsApp[1148:707] LL_A* -[WAChatStorage managedObjectContext] [Line 209] coredata/moc/main/create
+2012-09-19 17:01:44.174 WhatsApp[1148:3903] LL_N  -[XMPPStream onSocket:didConnectToHost:port:] [Line 345] Binary Protocol v.1.2
+2012-09-19 17:01:44.176 WhatsApp[1148:3903] LL_N  -[XMPPConnection logStanza:recv:] [Line 2961] send/xmlstreamstart to='s.whatsapp.net' resource='iPhone-2.8.4-5222'
+2012-09-19 17:01:44.191 WhatsApp[1148:3903] LL_N  -[XMPPConnection logStanza:recv:] [Line 2961] send/stream:features
+2012-09-19 17:01:44.193 WhatsApp[1148:3903] LL_N  -[XMPPConnection logStanza:recv:] [Line 2961] send/auth mechanism='WAUTH-1' user='60173370769' {data 45b}
+2012-09-19 17:01:44.195 WhatsApp[1148:3903] LL_N  -[XMPPStream onSocket:didConnectToHost:port:] [Line 356] >>> Send 127 byte(s) >>>
+2012-09-19 17:01:44.521 WhatsApp[1148:3903] LL_N  -[XMPPStream onSocket:didReadData:withTag:] [Line 365] <<< Recv 88 byte(s) <<<
+2012-09-19 17:01:44.526 WhatsApp[1148:3903] LL_N  -[XMPPStream onSocket:didReadData:withTag:] [Line 373] Incoming buffer contains 88 byte(s), processed 88 byte(s).
+2012-09-19 17:01:44.529 WhatsApp[1148:3903] LL_N  -[XMPPConnection logStanza:recv:] [Line 2961] recv/xmlstreamstart from='s.whatsapp.net'
+2012-09-19 17:01:44.531 WhatsApp[1148:3903] LL_N  -[XMPPStream processElements:] [Line 271] Ignore xmlstreamstart with id=(null)
+2012-09-19 17:01:44.534 WhatsApp[1148:3903] LL_N  -[XMPPConnection logStanza:recv:] [Line 2961] recv/stream:features
+2012-09-19 17:01:44.537 WhatsApp[1148:3903] LL_N  -[XMPPStream processElements:] [Line 271] Ignore stream:features with id=(null)
+2012-09-19 17:01:44.546 WhatsApp[1148:3903] LL_N  -[XMPPConnection logStanza:recv:] [Line 2961] recv/success status='active' creation='1310245177' expiration='1657313977' kind='paid' {data 20b}
+2012-09-19 17:01:44.565 WhatsApp[1148:3903] LL_N  -[XMPPConnection logStanza:recv:] [Line 2961] send/presence name='Izz' type='available' chat
+2012-09-19 17:01:44.568 WhatsApp[1148:3903] LL_N  -[XMPPStream internalSend:encrypted:] [Line 100] >>> Send 18 byte(s) >>>
+2012-09-19 17:01:44.673 WhatsApp[1148:3903] LL_N  -[XMPPConnection logStanza:recv:] [Line 2961] send/iq id='1348045304-1' type='get' req='request blacklist'
+2012-09-19 17:01:44.676 WhatsApp[1148:3903] LL_N  -[XMPPStream internalSend:encrypted:] [Line 100] >>> Send 41 byte(s) >>>
+2012-09-19 17:01:44.681 WhatsApp[1148:3903] LL_N  -[XMPPStream onSocket:didReadData:withTag:] [Line 365] <<< Recv 138 byte(s) <<<
+2012-09-19 17:01:44.686 WhatsApp[1148:3903] LL_N  -[XMPPStream onSocket:didReadData:withTag:] [Line 373] Incoming buffer contains 138 byte(s), processed 138 byte(s).
+2012-09-19 17:01:44.688 WhatsApp[1148:3903] LL_N  -[XMPPConnection logStanza:recv:] [Line 2961] recv/presence status='dirty' id='1348045304-2' from='s.whatsapp.net' type='available' dirty_bits='dirty'
+2012-09-19 17:01:44.690 WhatsApp[1148:3903] LL_N  -[XMPPStream outputProfilingResults] [Line 153] Connected to 50.22.231.44 over GPRS in 0.83s=|tcp:0.31s|auth:0.38s|presence:0.14s|
+2012-09-19 17:01:44.699 WhatsApp[1148:3903] LL_N  -[XMPPConnection logStanza:recv:] [Line 2961] recv/message id='1348044785-6' t='1348045287' from='60173289772@s.whatsapp.net' type='chat' cli_req {text 10b}
+2012-09-19 17:01:44.702 WhatsApp[1148:3903] LL_N  -[XMPPConnection logStanza:recv:] [Line 2961] recv/ib from='s.whatsapp.net'
+2012-09-19 17:01:44.846 WhatsApp[1148:707] LL_N* -[XMPPConnection processIncomingMessages:] [Line 1210] Messages count [1]
+2012-09-19 17:01:44.943 WhatsApp[1148:707] LL_N* -[XMPPConnection processIncomingMessages:] [Line 1270] Incoming message from [60173289772@s.whatsapp.net], id [1348044785-6], timestamp [2012-09-19 09:01:27 +0000], message date [2012-09-19 09:01:27 +0000], author [], {text 10b}
+2012-09-19 17:01:44.946 WhatsApp[1148:707] LL_N* -[XMPPConnection processIncomingMessages:] [Line 1277] First offline message received in 0.38 sec.
+2012-09-19 17:01:44.987 WhatsApp[1148:3903] LL_N  -[XMPPStream onSocket:didReadData:withTag:] [Line 365] <<< Recv 28 byte(s) <<<
+2012-09-19 17:01:44.992 WhatsApp[1148:3903] LL_N  -[XMPPStream onSocket:didReadData:withTag:] [Line 373] Incoming buffer contains 28 byte(s), processed 28 byte(s).
+2012-09-19 17:01:44.994 WhatsApp[1148:3903] LL_N  -[XMPPConnection logStanza:recv:] [Line 2961] recv/presence id='1348045304-4' from='60173370769@s.whatsapp.net' type='available' chat
+2012-09-19 17:01:44.999 WhatsApp[1148:3903] LL_N  -[XMPPStream onSocket:didReadData:withTag:] [Line 365] <<< Recv 26 byte(s) <<<
+2012-09-19 17:01:45.001 WhatsApp[1148:3903] LL_N  -[XMPPStream onSocket:didReadData:withTag:] [Line 373] Incoming buffer contains 26 byte(s), processed 26 byte(s).
+2012-09-19 17:01:45.003 WhatsApp[1148:3903] LL_N  -[XMPPConnection logStanza:recv:] [Line 2961] recv/presence id='1348045304-5' from='60173289772@s.whatsapp.net' type='available' chat
+2012-09-19 17:01:45.074 WhatsApp[1148:3903] LL_N  -[XMPPConnection logStanza:recv:] [Line 2961] send/message id='1348044785-6' to='60173289772@s.whatsapp.net' type='chat' cli_ack
+2012-09-19 17:01:45.076 WhatsApp[1148:3903] LL_N  -[XMPPStream sendArray:encrypted:] [Line 130] >>> Send 50 byte(s) >>>
+2012-09-19 17:01:45.082 WhatsApp[1148:707] LL_A* -[WhatsAppAppDelegate application:didRegisterForRemoteNotificationsWithDeviceToken:] [Line 1217] push-token/success [<e272e498 c28dbea0 445e7517 f2878840 27aa7b57 68a95521 3d84f80c 0b887495>]
+2012-09-19 17:01:45.090 WhatsApp[1148:3903] LL_N  -[XMPPConnection logStanza:recv:] [Line 2961] send/iq id='1348045304-7' to='s.whatsapp.net' type='set' req='push config'
+2012-09-19 17:01:45.092 WhatsApp[1148:3903] LL_N  -[XMPPStream internalSend:encrypted:] [Line 100] >>> Send 105 byte(s) >>>
+2012-09-19 17:01:45.298 WhatsApp[1148:3903] LL_N  -[XMPPStream onSocket:didReadData:withTag:] [Line 365] <<< Recv 63 byte(s) <<<
+2012-09-19 17:01:45.304 WhatsApp[1148:3903] LL_N  -[XMPPStream onSocket:didReadData:withTag:] [Line 373] Incoming buffer contains 63 byte(s), processed 63 byte(s).
+2012-09-19 17:01:45.309 WhatsApp[1148:3903] LL_N  -[XMPPConnection logStanza:recv:] [Line 2961] recv/iq id='1348045304-1' from='60173370769@s.whatsapp.net' type='error' req='request blacklist'
+2012-09-19 17:01:45.599 WhatsApp[1148:3903] LL_N  -[XMPPStream onSocket:didReadData:withTag:] [Line 365] <<< Recv 29 byte(s) <<<
+2012-09-19 17:01:45.603 WhatsApp[1148:3903] LL_N  -[XMPPStream onSocket:didReadData:withTag:] [Line 373] Incoming buffer contains 29 byte(s), processed 29 byte(s).
+2012-09-19 17:01:45.606 WhatsApp[1148:3903] LL_N  -[XMPPConnection logStanza:recv:] [Line 2961] recv/iq id='1348045304-7' from='s.whatsapp.net' type='result' req='push config'
+2012-09-19 17:01:47.484 WhatsApp[1148:3903] LL_N  -[XMPPConnection logStanza:recv:] [Line 2961] send/presence id='1348045304-10' to='60173289772@s.whatsapp.net' type='subscribe' auth
+2012-09-19 17:01:47.487 WhatsApp[1148:3903] LL_N  -[XMPPStream internalSend:encrypted:] [Line 100] >>> Send 44 byte(s) >>>
+2012-09-19 17:01:47.836 WhatsApp[1148:3903] LL_N  -[XMPPStream onSocket:didReadData:withTag:] [Line 365] <<< Recv 28 byte(s) <<<
+2012-09-19 17:01:47.839 WhatsApp[1148:3903] LL_N  -[XMPPStream onSocket:didReadData:withTag:] [Line 373] Incoming buffer contains 28 byte(s), processed 28 byte(s).
+2012-09-19 17:01:47.840 WhatsApp[1148:3903] LL_N  -[XMPPConnection logStanza:recv:] [Line 2961] recv/presence id='1348045304-11' from='60173289772@s.whatsapp.net' type='available' chat
+2012-09-19 17:01:49.530 WhatsApp[1148:491f] LL_A  -[WAContactsStorage syncContactsIfNecessary] [Line 1117] contacts/status/sync/last-date [2012-09-19 06:02:28 +0000]
+2012-09-19 17:01:49.540 WhatsApp[1148:491f] LL_A  -[WAContactsStorage syncContacts:] [Line 1082] contacts/status/sync/cancel/no-items
+2012-09-19 17:01:49.542 WhatsApp[1148:491f] LL_A  -[WAContactsStorage contactsSyncFinished:] [Line 1128] contacts/status/sync/success favs-generated [(null)] favs-updated [0] status-updated [0]
+2012-09-19 17:01:49.557 WhatsApp[1148:491f] LL_A  -[WAChatStorage dataRefreshContext] [Line 223] coredata/moc/ab/create
+2012-09-19 17:01:54.612 WhatsApp[1148:3903] LL_N  -[XMPPConnection logStanza:recv:] [Line 2961] send/message id='1348045304-12' to='60173289772@s.whatsapp.net' type='chat' chat_state='composing'
+2012-09-19 17:01:54.626 WhatsApp[1148:3903] LL_N  -[XMPPStream internalSend:encrypted:] [Line 100] >>> Send 51 byte(s) >>>
+2012-09-19 17:01:55.088 WhatsApp[1148:3903] LL_N  -[XMPPConnection logStanza:recv:] [Line 2961] send/iq id='1348045304-13' to='s.whatsapp.net' type='set' req='push config'
+2012-09-19 17:01:55.093 WhatsApp[1148:3903] LL_N  -[XMPPStream internalSend:encrypted:] [Line 100] >>> Send 122 byte(s) >>>
+2012-09-19 17:01:55.403 WhatsApp[1148:3903] LL_N  -[XMPPStream onSocket:didReadData:withTag:] [Line 365] <<< Recv 30 byte(s) <<<
+2012-09-19 17:01:55.407 WhatsApp[1148:3903] LL_N  -[XMPPStream onSocket:didReadData:withTag:] [Line 373] Incoming buffer contains 30 byte(s), processed 30 byte(s).
+2012-09-19 17:01:55.410 WhatsApp[1148:3903] LL_N  -[XMPPConnection logStanza:recv:] [Line 2961] recv/iq id='1348045304-13' from='s.whatsapp.net' type='result' req='push config'
+2012-09-19 17:01:55.742 WhatsApp[1148:3903] LL_N  -[XMPPConnection logStanza:recv:] [Line 2961] send/message id='1348045304-15' to='60173289772@s.whatsapp.net' type='chat' srv_req cli_req {text 3b}
+2012-09-19 17:01:55.745 WhatsApp[1148:3903] LL_N  -[XMPPStream internalSend:encrypted:] [Line 100] >>> Send 69 byte(s) >>>
+2012-09-19 17:01:56.056 WhatsApp[1148:3903] LL_N  -[XMPPStream onSocket:didReadData:withTag:] [Line 365] <<< Recv 87 byte(s) <<<
+2012-09-19 17:01:56.062 WhatsApp[1148:3903] LL_N  -[XMPPStream onSocket:didReadData:withTag:] [Line 373] Incoming buffer contains 87 byte(s), processed 87 byte(s).
+2012-09-19 17:01:56.064 WhatsApp[1148:3903] LL_N  -[XMPPConnection logStanza:recv:] [Line 2961] recv/message id='1348045304-15' t='1348045315' from='60173289772@s.whatsapp.net' type='chat' srv_ack
+2012-09-19 17:01:56.990 WhatsApp[1148:3903] LL_N  -[XMPPStream onSocket:didReadData:withTag:] [Line 365] <<< Recv 64 byte(s) <<<
+2012-09-19 17:01:56.992 WhatsApp[1148:3903] LL_N  -[XMPPStream onSocket:didReadData:withTag:] [Line 373] Incoming buffer contains 64 byte(s), processed 64 byte(s).
+2012-09-19 17:01:57.001 WhatsApp[1148:3903] LL_N  -[XMPPConnection logStanza:recv:] [Line 2961] recv/message id='1348045304-15' t='1348045316' from='60173289772@s.whatsapp.net' type='chat' cli_ack
+2012-09-19 17:01:57.022 WhatsApp[1148:3903] LL_N  -[XMPPConnection logStanza:recv:] [Line 2961] send/message id='1348045304-15' to='60173289772@s.whatsapp.net' type='chat' cli_ack_rep
+2012-09-19 17:01:57.027 WhatsApp[1148:3903] LL_N  -[XMPPStream internalSend:encrypted:] [Line 100] >>> Send 53 byte(s) >>>
+2012-09-19 17:01:58.420 WhatsApp[1148:707] LL_A* -[WhatsAppAppDelegate applicationWillResignActive:] [Line 1108] Application will resign active.
+2012-09-19 17:01:58.422 WhatsApp[1148:707] LL_A* -[WhatsAppAppDelegate isNoExternalPower] [Line 538] battery state  [2]
+2012-09-19 17:01:58.427 WhatsApp[1148:707] LL_A* -[WhatsAppAppDelegate applicationDidEnterBackground:] [Line 1172] Application did enter background.
+2012-09-19 17:01:58.489 WhatsApp[1148:707] LL_A* -[WhatsAppAppDelegate beginBackgroundTask] [Line 595] Begin background task: 1
+2012-09-19 17:01:58.492 WhatsApp[1148:707] LL_A* -[WhatsAppAppDelegate beginBackgroundTask] [Line 596] Background time remaining [599.897630] sec.
+2012-09-19 17:01:58.495 WhatsApp[1148:707] LL_A* -[WhatsAppAppDelegate beginBackgroundTask] [Line 597] Close connection after [585.000000] sec.
+2012-09-19 17:01:58.555 WhatsApp[1148:707] LL_A* -[ConversationViewController dealloc] [Line 147] conversation/dealloc [60173289772@s.whatsapp.net]
+LL_A Stack: [(
+LL_A 	0   WhatsApp                            0x0008c157 -[ConversationViewController dealloc] + 302
+LL_A 	1   libobjc.A.dylib                     0x34f62175 _objc_rootRelease + 36
+LL_A 	2   WhatsApp                            0x0008bf91 -[ConversationViewController release] + 76
+LL_A 	3   CoreFoundation                      0x371aa2e7 CFRelease + 94
+LL_A 	4   CoreFoundation                      0x37226b37 __CFDictionaryStandardReleaseValue + 70
+LL_A 	5   CoreFoundation                      0x3727a10c __CFBasicHashRemoveValue + 104
+LL_A 	6   CoreFoundation                      0x371ae7ec CFBasicHashRemoveValue + 2908
+LL_A 	7   CoreFoundation                      0x371adc67 CFDictionaryRemoveValue + 178
+LL_A 	8   WhatsApp                            0x00082e91 -[ChatListViewController purgeViewControllers] + 280
+LL_A 	9   WhatsApp                            0x0008b56d -[ChatListViewController applicationDidEnterBackground:] + 24
+LL_A 	10  Foundation                          0x37ac64ff __57-[NSNotificationCenter addObserver:selector:name:object:]_block_invoke_0 + 18
+LL_A 	11  CoreFoundation                      0x3722d547 ___CFXNotificationPost_block_invoke_0 + 70
+LL_A 	12  CoreFoundation                      0x371b9097 _CFXNotificationPost + 1406
+LL_A 	13  Foundation                          0x37a3a3eb -[NSNotificationCenter postNotificationName:object:userInfo:] + 66
+LL_A 	14  UIKit                               0x30fa5255 -[UIApplication _handleApplicationSuspend:eventInfo:] + 792
+LL_A 	15  UIKit                               0x30f35eff -[UIApplication handleEvent:withNewEvent:] + 2094
+LL_A 	16  UIKit                               0x30f35567 -[UIApplication sendEvent:] + 54
+LL_A 	17  UIKit                               0x30f34f3b _UIApplicationHandleEvent + 5826
+LL_A 	18  GraphicsServices                    0x3397722b PurpleEventCallback + 882
+LL_A 	19  CoreFoundation                      0x37235523 __CFRUNLOOP_IS_CALLING_OUT_TO_A_SOURCE1_PERFORM_FUNCTION__ + 38
+LL_A 	20  CoreFoundation                      0x372354c5 __CFRunLoopDoSource1 + 140
+LL_A 	21  CoreFoundation                      0x37234313 __CFRunLoopRun + 1370
+LL_A 	22  CoreFoundation                      0x371b74a5 CFRunLoopRunSpecific + 300
+LL_A 	23  CoreFoundation                      0x371b736d CFRunLoopRunInMode + 104
+LL_A 	24  GraphicsServices                    0x33976439 GSEventRunModal + 136
+LL_A 	25  UIKit                               0x30f63cd5 UIApplicationMain + 1080
+LL_A 	26  WhatsApp                            0x00003977 main + 110
+LL_A 	27  WhatsApp                            0x00003904 start + 40
+LL_A )]
+2012-09-19 17:02:06.273 WhatsApp[1148:3903] LL_N  -[XMPPStream onSocket:didReadData:withTag:] [Line 365] <<< Recv 28 byte(s) <<<
+2012-09-19 17:02:06.279 WhatsApp[1148:3903] LL_N  -[XMPPStream onSocket:didReadData:withTag:] [Line 373] Incoming buffer contains 28 byte(s), processed 28 byte(s).
+2012-09-19 17:02:06.282 WhatsApp[1148:3903] LL_N  -[XMPPConnection logStanza:recv:] [Line 2961] recv/presence id='1348045304-20' from='60173289772@s.whatsapp.net' type='unavailable' chat
+2012-09-19 17:02:13.441 WhatsApp[1148:3903] LL_N  -[XMPPConnection logStanza:recv:] [Line 2961] send/presence type='unavailable' chat
+2012-09-19 17:02:13.447 WhatsApp[1148:3903] LL_N  -[XMPPStream internalSend:encrypted:] [Line 100] >>> Send 12 byte(s) >>>
+2012-09-19 17:02:13.961 WhatsApp[1148:3903] LL_N  -[XMPPStream onSocket:didReadData:withTag:] [Line 365] <<< Recv 28 byte(s) <<<
+2012-09-19 17:02:13.967 WhatsApp[1148:3903] LL_N  -[XMPPStream onSocket:didReadData:withTag:] [Line 373] Incoming buffer contains 28 byte(s), processed 28 byte(s).
+2012-09-19 17:02:13.970 WhatsApp[1148:3903] LL_N  -[XMPPConnection logStanza:recv:] [Line 2961] recv/presence id='1348045304-22' from='60173370769@s.whatsapp.net' type='unavailable' chat
+2012-09-19 17:05:17.334 WhatsApp[1148:3903] LL_N  -[XMPPStream onSocket:didReadData:withTag:] [Line 365] <<< Recv 39 byte(s) <<<
+2012-09-19 17:05:17.340 WhatsApp[1148:3903] LL_N  -[XMPPStream onSocket:didReadData:withTag:] [Line 373] Incoming buffer contains 39 byte(s), processed 39 byte(s).
+2012-09-19 17:05:17.343 WhatsApp[1148:3903] LL_N  -[XMPPConnection logStanza:recv:] [Line 2961] recv/iq id='1348045513-ping' from='s.whatsapp.net' type='get' ping
+2012-09-19 17:05:17.345 WhatsApp[1148:3903] LL_N  -[XMPPConnection logStanza:recv:] [Line 2961] send/iq id='1348045513-ping' to='s.whatsapp.net' type='result'
+2012-09-19 17:05:17.347 WhatsApp[1148:3903] LL_N  -[XMPPStream internalSend:encrypted:] [Line 100] >>> Send 32 byte(s) >>>
+2012-09-19 17:08:20.184 WhatsApp[1148:3903] LL_N  -[XMPPStream onSocket:didReadData:withTag:] [Line 365] <<< Recv 39 byte(s) <<<
+2012-09-19 17:08:20.191 WhatsApp[1148:3903] LL_N  -[XMPPStream onSocket:didReadData:withTag:] [Line 373] Incoming buffer contains 39 byte(s), processed 39 byte(s).
+2012-09-19 17:08:20.193 WhatsApp[1148:3903] LL_N  -[XMPPConnection logStanza:recv:] [Line 2961] recv/iq id='1348045696-ping' from='s.whatsapp.net' type='get' ping
+2012-09-19 17:08:20.196 WhatsApp[1148:3903] LL_N  -[XMPPConnection logStanza:recv:] [Line 2961] send/iq id='1348045696-ping' to='s.whatsapp.net' type='result'
+2012-09-19 17:08:20.198 WhatsApp[1148:3903] LL_N  -[XMPPStream internalSend:encrypted:] [Line 100] >>> Send 32 byte(s) >>>
+2012-09-19 17:11:23.190 WhatsApp[1148:3903] LL_N  -[XMPPStream onSocket:didReadData:withTag:] [Line 365] <<< Recv 39 byte(s) <<<
+2012-09-19 17:11:23.196 WhatsApp[1148:3903] LL_N  -[XMPPStream onSocket:didReadData:withTag:] [Line 373] Incoming buffer contains 39 byte(s), processed 39 byte(s).
+2012-09-19 17:11:23.199 WhatsApp[1148:3903] LL_N  -[XMPPConnection logStanza:recv:] [Line 2961] recv/iq id='1348045879-ping' from='s.whatsapp.net' type='get' ping
+2012-09-19 17:11:23.202 WhatsApp[1148:3903] LL_N  -[XMPPConnection logStanza:recv:] [Line 2961] send/iq id='1348045879-ping' to='s.whatsapp.net' type='result'
+2012-09-19 17:11:23.204 WhatsApp[1148:3903] LL_N  -[XMPPStream internalSend:encrypted:] [Line 100] >>> Send 32 byte(s) >>>
+2012-09-19 17:11:43.498 WhatsApp[1148:707] LL_N* -[WhatsAppAppDelegate closeConnection] [Line 608] Close server connection.
+2012-09-19 17:11:43.639 WhatsApp[1148:3903] LL_N  -[XMPPConnection checkConnection] [Line 1848] Disconnecting
+2012-09-19 17:11:43.642 WhatsApp[1148:3903] LL_N  -[AsyncSocket disconnect] [Line 440] Disconnects immediately.
+2012-09-19 17:11:43.645 WhatsApp[1148:3903] LL_N  -[AsyncSocket close] [Line 355] Close connection.
+2012-09-19 17:11:43.653 WhatsApp[1148:3903] LL_N  -[XMPPConnection xmppStreamDidClose:] [Line 1781] Connection is broken. It has been active for 599.09 sec.

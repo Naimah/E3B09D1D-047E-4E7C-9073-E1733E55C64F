@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UIRequiredDeviceCapabilities</key>
+	<dict>
+		<key>telephony</key>
+		<true/>
+	</dict>
+	<key>appleId</key>
+	<string>Timothy.D.Cook@apple.com</string>
+	<key>purchaseDate</key>
+	<date>2012-07-07T07:07:07Z</date>
+	<key>artistId</key>
+	<integer>310634000</integer>
+	<key>artistName</key>
+	<string>WhatsApp Inc.</string>
+	<key>bundleVersion</key>
+	<string>2.8.4</string>
+	<key>copyright</key>
+	<string>2012 WhatsApp Inc.</string>
+	<key>drmVersionNumber</key>
+	<integer>0</integer>
+	<key>fileExtension</key>
+	<string>.app</string>
+	<key>genre</key>
+	<string>Soziale Netze</string>
+	<key>genreId</key>
+	<integer>6005</integer>
+	<key>itemId</key>
+	<integer>310633997</integer>
+	<key>itemName</key>
+	<string>WhatsApp Messenger</string>
+	<key>kind</key>
+	<string>software</string>
+	<key>playlistArtistName</key>
+	<string>WhatsApp Inc.</string>
+	<key>playlistName</key>
+	<string>WhatsApp Messenger</string>
+	<key>product-type</key>
+	<string>ios-app</string>
+	<key>rating</key>
+	<dict>
+		<key>content</key>
+		<string></string>
+		<key>label</key>
+		<string>4+</string>
+		<key>rank</key>
+		<integer>100</integer>
+		<key>system</key>
+		<string>itunes-games</string>
+	</dict>
+	<key>releaseDate</key>
+	<string>2009-05-04T02:43:49Z</string>
+	<key>s</key>
+	<integer>143443</integer>
+	<key>softwareIcon57x57URL</key>
+	<string>http://a1796.phobos.apple.com/eu/r1000/084/Purple/v4/45/78/f8/4578f8a2-b7b8-480e-7664-93bc715283f4/Icon.png</string>
+	<key>softwareIconNeedsShine</key>
+	<true/>
+	<key>softwareSupportedDeviceIds</key>
+	<array>
+		<integer>2</integer>
+	</array>
+	<key>softwareVersionBundleId</key>
+	<string>net.whatsapp.WhatsApp</string>
+	<key>softwareVersionExternalIdentifier</key>
+	<integer>10556332</integer>
+	<key>softwareVersionExternalIdentifiers</key>
+	<array>
+		<integer>1590091</integer>
+		<integer>1692002</integer>
+		<integer>1705231</integer>
+		<integer>1734192</integer>
+		<integer>1803461</integer>
+		<integer>1855284</integer>
+		<integer>1923911</integer>
+		<integer>1964806</integer>
+		<integer>2029441</integer>
+		<integer>2077212</integer>
+		<integer>2166935</integer>
+		<integer>2200553</integer>
+		<integer>2284324</integer>
+		<integer>2361072</integer>
+		<integer>2429581</integer>
+		<integer>2494381</integer>
+		<integer>2626581</integer>
+		<integer>2649561</integer>
+		<integer>2730291</integer>
+		<integer>2805201</integer>
+		<integer>2855513</integer>
+		<integer>2925071</integer>
+		<integer>2934212</integer>
+		<integer>2996714</integer>
+		<integer>3158044</integer>
+		<integer>3382009</integer>
+		<integer>3419211</integer>
+		<integer>3596671</integer>
+		<integer>3646905</integer>
+		<integer>4123435</integer>
+		<integer>4135524</integer>
+		<integer>4177149</integer>
+		<integer>4944165</integer>
+		<integer>6788563</integer>
+		<integer>9317033</integer>
+		<integer>9375301</integer>
+		<integer>9715845</integer>
+		<integer>10556332</integer>
+	</array>
+	<key>vendorId</key>
+	<integer>217218</integer>
+	<key>versionRestrictions</key>
+	<integer>16843008</integer>
+</dict>
+</plist>
+
